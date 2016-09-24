@@ -1,17 +1,11 @@
-<!DOCTYPE html>
 <html>
-
-
-<jsp:include page="header.jsp" />
-
-
 <style>
 form {
-    border: 3px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
 }
 
 input[type=text], input[type=password] {
-    width: 100%;
+    width: 75%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -64,20 +58,27 @@ span.psw {
        width: 100%;
     }
 }
-
-
 </style>
+<body>
 
-<form action="action_page.jsp">
+
+<form action="action_page.php">
+
 
   <div class="container">
     <label><b>Username</b></label>
+    <br><br>
     <input type="text" placeholder="Enter Username" name="uname" required>
-
+	<br></br>
     <label><b>Password</b></label>
+    <br></br>
     <input type="password" placeholder="Enter Password" name="psw" required>
-        
+    
+<br></br>
     <button type="submit">Login</button>
+    
+    <input type="checkbox" checked="checked"> Remember me
+    <br></br>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
@@ -87,4 +88,8 @@ span.psw {
 </form>
 
 
-<jsp:include page="header.jsp" />
+</body>
+
+
+
+</html>
