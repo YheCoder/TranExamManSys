@@ -1,10 +1,10 @@
-package StudentModel;
+package edu.school;
 
-public class StudentModel {
-	private int student_id;
+public class Student {
+	//private int student_id;
 	private String given_name;
 	private String father_name;
-	private String grand_father_name;
+	/*private String grand_father_name;
 	private String gender;
 	private String address;
 	private String date_of_borth;
@@ -13,20 +13,21 @@ public class StudentModel {
 	}
 	public void setStudent_id(int student_id) {
 		this.student_id = student_id;
-	}
-	public String getGiven_name() {
+	}*/
+	public String getGivenName() {
 		return given_name;
 	}
-	public void setGiven_name(String given_name) {
+	public void setGivenName(String given_name) {
 		this.given_name = given_name;
 	}
-	public String getFather_name() {
+	public String getFatherName() {
 		return father_name;
 	}
 	public void setFather_name(String father_name) {
 		this.father_name = father_name;
 	}
-	public String getGrand_father_name() {
+	
+	/*public String getGrand_father_name() {
 		return grand_father_name;
 	}
 	public void setGrand_father_name(String grand_father_name) {
@@ -64,7 +65,7 @@ public class StudentModel {
 	}
 	private int grade_level;
 	private String section;
-	
+	*/
 	
 
 }

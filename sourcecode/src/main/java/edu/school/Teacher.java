@@ -1,6 +1,6 @@
-package TeacherModel;
+package edu.school;
 
-public class TeacherModel {
+public class Teacher {
 	private int teacher_id;
 	private String teacher_name;
 	private String teacher_f_name;

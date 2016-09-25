@@ -1,6 +1,6 @@
-package SubjectModel;
+package edu.school;
 
-public class SubjectModel {
+public class Subject {
 	
 	private int subject_id;
 	private String subject_name;
